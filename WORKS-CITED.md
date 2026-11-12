@@ -140,3 +140,28 @@ depends on their current state.
 
 - GitHub. [About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
   **Use:** Supports blocking force pushes and deletion and requiring pull requests or status checks where appropriate.
+
+- GitHub. [Available rules for rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets).
+  **Verified:** 2026-11-12.
+  **Use:** Documents rules for requiring pull requests, setting required approvals to zero, requiring conversation resolution, restricting deletion, blocking force pushes, requiring linear history, and requiring a merge type.
+  **Limit:** GitHub provides the controls; the selected FoodShield combination is an agent-proposed adaptation approved in principle by the owner.
+
+- GitHub. [Reviewing proposed changes in a pull request](https://docs.github.com/en/pull-requests/how-tos/review-pull-requests/reviewing-proposed-changes-in-a-pull-request).
+  **Verified:** 2026-11-12.
+  **Use:** Documents that pull request authors cannot approve their own pull requests.
+  **Limit:** It does not prescribe FoodShield's separate owner-approval record.
+
+- GitHub. [About merge methods on GitHub](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github).
+  **Verified:** 2026-11-12.
+  **Use:** Distinguishes merge commits, squash merges, and rebase merges and explains their history effects.
+  **Limit:** GitHub supports several methods; squash-only is a FoodShield workflow choice, not a GitHub requirement.
+
+- GitHub. [Managing the automatic deletion of branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches).
+  **Verified:** 2026-11-12.
+  **Use:** Documents the repository setting that automatically deletes merged head branches.
+  **Limit:** It applies to remote head branches and does not remove local branches or override conflicting rules.
+
+- GitHub. [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository).
+  **Verified:** 2026-11-12.
+  **Use:** Documents `.github/pull_request_template.md` as a supported default pull request template location.
+  **Limit:** The FoodShield template fields are project choices, not GitHub requirements.
