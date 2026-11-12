@@ -21,6 +21,9 @@ program, or industry standard.
 - [FoodShield glossary](GLOSSARY.md)
 - [FoodShield-to-Industry Terminology Map](TERMINOLOGY-MAP.md)
 - [Works cited](WORKS-CITED.md)
+- [Git workflow](GIT-WORKFLOW.md)
+- [Contribution guide](CONTRIBUTING.md)
+- [Repository instructions for agents](AGENTS.md)
 
 The local Grok handoff is retained as historical evidence and excluded from
 Git. It is not a project authority.

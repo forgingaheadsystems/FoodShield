@@ -49,6 +49,27 @@ The absence of a ruleset or branch protection is a verified repository fact,
 not an approved Git policy. The exact protection settings remain an owner
 decision to be made before routine development begins.
 
+## Git governance SOP task
+
+**Owner approval:** The recommended solo-owner Git setup and initial SOP file
+set were approved on 2026-11-12.
+
+**Agent-proposed filenames approved for the draft package:** `AGENTS.md`,
+`GIT-WORKFLOW.md`, `CONTRIBUTING.md`, and
+`.github/pull_request_template.md`.
+
+**Publication approval:** The owner approved the exact seven-file governance
+package on 2026-11-12. Publication proceeds through
+`codex/git-governance-sop`; the approved GitHub settings are applied only after
+the documentation is merged and then verified against GitHub's reported state.
+
+The approved direction is to require pull requests to `main`, use zero required
+GitHub approvals while the owner is the sole reviewer, require conversation
+resolution, block force pushes and deletion of `main`, use squash merges with a
+linear history, automatically delete merged remote task branches, and defer
+status checks, signed commits, and CODEOWNERS requirements until their
+supporting capabilities exist.
+
 ## Owner-approved direction
 
 - FoodShield is intended to answer the requested digital-tool features identified in the Sundermeir et al. survey.
