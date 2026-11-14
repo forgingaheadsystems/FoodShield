@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://forgingahead.local/schemas/foodshield-product-company-pointer.schema.json",
+  "title": "FoodShieldProductCompanyPointer",
+  "description": "Thin FoodShield pointer to forgingaheadsystems/company-standards. Does not embed company doctrine. Authority is GitHub company-standards main.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["role", "product", "companyManifest"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "role": {
+      "type": "string",
+      "const": "product_pointer"
+    },
+    "product": {
+      "type": "string",
+      "const": "FoodShield"
+    },
+    "companyManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["uri", "expectedVersion", "expectedChecksum"],
+      "properties": {
+        "uri": {
+          "type": "string",
+          "description": "URI of the company-home CompanyStandardsManifest.json on GitHub (authority)."
+        },
+        "repo": {
+          "type": "string",
+          "description": "Company SoR home repository URL."
+        },
+        "localWorkingCopyPath": {
+          "type": "string",
+          "description": "Optional Desktop working-copy path for offline load; not authority."
+        },
+        "expectedVersion": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "expectedChecksum": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}

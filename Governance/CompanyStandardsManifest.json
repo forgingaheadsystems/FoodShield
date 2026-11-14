@@ -1,0 +1,13 @@
+{
+  "$schema": "CompanyStandardsManifest.schema.json",
+  "role": "product_pointer",
+  "product": "FoodShield",
+  "companyManifest": {
+    "uri": "https://github.com/forgingaheadsystems/company-standards/blob/main/Governance/CompanyStandardsManifest.json",
+    "repo": "https://github.com/forgingaheadsystems/company-standards",
+    "localWorkingCopyPath": "C:\\Users\\User\\Desktop\\company-standards\\Governance\\CompanyStandardsManifest.json",
+    "expectedVersion": "0.2.1",
+    "expectedChecksum": "sha256:079d108a7211cef3760fcdbc53c433704f4b6e08c8dfec7f6bc9492e3a3408e4"
+  },
+  "notes": "FoodShield is a product repo. Company SoR authority is GitHub forgingaheadsystems/company-standards (main). Prefer the Desktop working copy when present; otherwise fetch from the private GitHub repo with credentials. This file is a thin pointer only — do not embed company doctrine; on version/checksum mismatch vs company home, fail closed."
+}
