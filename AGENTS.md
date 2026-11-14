@@ -1,5 +1,9 @@
 # FoodShield Repository Instructions
 
+## Session start
+
+- Load the **company** standards manifest from GitHub `forgingaheadsystems/company-standards` (`Governance/CompanyStandardsManifest.json` on `main`). This product's `Governance/CompanyStandardsManifest.json` is a **thin pointer** (`companyManifest.uri` + expected version/checksum) — verify it matches; on mismatch, fail closed. Do not treat this product as company SoR.
+- Then load this product's SoR (this file, `CONTEXT.md`, `GLOSSARY.md`, and `WORKS-CITED.md`).
 These instructions apply to the entire FoodShield repository. They supplement
 the owner's current global instructions and may narrow them for this project.
 
