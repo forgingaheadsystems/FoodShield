@@ -2,14 +2,12 @@
 
 ## Session start
 
-- Load the **company** standards manifest from GitHub `forgingaheadsystems/company-standards` (`Governance/CompanyStandardsManifest.json` on `main`). This product's `Governance/CompanyStandardsManifest.json` is a **thin pointer** (`companyManifest.uri` + expected version/checksum) — verify it matches; on mismatch, fail closed. Do not treat this product as company SoR.
-- Then load this product's SoR (this file, `CONTEXT.md`, `GLOSSARY.md`, and `WORKS-CITED.md`).
-These instructions apply to the entire FoodShield repository. They supplement
-the owner's current global instructions and may narrow them for this project.
+- Load the **company** standards manifest from GitHub `forgingaheadsystems/company-standards` (`Governance/CompanyStandardsManifest.json` on `main`). This product’s `Governance/CompanyStandardsManifest.json` is a **thin pointer** (`companyManifest.uri` + expected version/checksum) — verify it matches; on mismatch, fail closed. Do not treat this product repo as company SoR.
+- Load company **OWNER LAW** from company-home `Governance/OwnerLaw.md` (nine-proof done rule; catalog vs company-claims; invent-term / write API/event boundary). Do not copy Owner Law into this product — load from company home.
+- Then load this product’s own product SoR (this file’s authority rules, product glossary, and any product write gate such as ActiveWork when the product uses one).
+- Prefer the Desktop working copy of company-standards when present and synced; otherwise fetch from the private GitHub company-standards repo with credentials.
+- Do not copy company glossary or company doctrine into this product. Company terms live in company-standards; product terms live here.
 
-**Terminology origin:** The filename, title, section labels, and
-FoodShield-specific policy wording in this file are Codex-proposed drafting for
-owner review. Established Git and GitHub terms retain their external meanings.
 
 ## Authority and evidence
 
