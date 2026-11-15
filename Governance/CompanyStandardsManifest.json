@@ -6,8 +6,8 @@
                             "uri":  "https://github.com/forgingaheadsystems/company-standards/blob/main/Governance/CompanyStandardsManifest.json",
                             "repo":  "https://github.com/forgingaheadsystems/company-standards",
                             "localWorkingCopyPath":  "C:\\Users\\User\\Desktop\\company-standards\\Governance\\CompanyStandardsManifest.json",
-                            "expectedVersion":  "0.3.0",
-                            "expectedChecksum":  "sha256:446e03a9dbf98e9bcf1bbdd9a0e139771ddd2f7bf63414cded5f3c6c449beb70"
+                            "expectedVersion":  "0.4.0",
+                            "expectedChecksum":  "sha256:b4d8fce5b38e5864b4450f27a5090ae17545e70168a18e7f9d948af15df0367e"
                         },
-    "notes":  "FoodShield is a product repo. Company SoR authority is GitHub forgingaheadsystems/company-standards (main). Prefer the Desktop working copy when present; otherwise fetch from the private GitHub repo with credentials. This file is a thin pointer only â€” do not embed company doctrine; on version/checksum mismatch vs company home, fail closed."
+    "notes":  "FoodShield is a product repo. Company SoR authority is GitHub forgingaheadsystems/company-standards (main). Prefer the Desktop working copy when present; otherwise fetch from the private GitHub repo with credentials. This file is a thin pointer only — do not embed company doctrine; on version/checksum mismatch vs company home, fail closed."
 }
