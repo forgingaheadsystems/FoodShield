@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://forgingahead.local/schemas/foodshield-product-company-pointer.schema.json",
-  "title": "FoodShieldProductCompanyPointer",
-  "description": "Thin FoodShield pointer to forgingaheadsystems/company-standards. Does not embed company doctrine. Authority is GitHub company-standards main.",
+  "$id": "https://forgingahead.local/schemas/product-company-pointer.schema.json",
+  "title": "ProductCompanyPointer",
+  "description": "Thin product-repo pointer to forgingaheadsystems/company-standards. Does not embed company doctrine. Authority is GitHub company-standards main.",
   "type": "object",
   "additionalProperties": false,
   "required": ["role", "product", "companyManifest"],
@@ -14,7 +14,8 @@
     },
     "product": {
       "type": "string",
-      "const": "FoodShield"
+      "description": "Product name only.",
+      "minLength": 1
     },
     "companyManifest": {
       "type": "object",
